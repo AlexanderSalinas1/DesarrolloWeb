@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+@import url('https://c.tenor.com/exuPwTTU-FwAAAAC/key-click-typing.gif');
+@import url('https://icon-library.com/icon/instagram-icon-black-png-12.html#');
+
+
+.navegador{
+    background-color: black;
+    font-size: 20px;
+    width: 100vw;
+}
+.navegador ul{
+    color: white;
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    text-align: end;
+}
+
+.navegadorBotones{
+    display: inline-block;
+    margin: 10px;
+    }
+
+.navegadorLinks {
+    color: white;
+    text-decoration: none;
+    outline: 3px;
+}
+
+.nombre{
+    color: #000;
+    text-align: center;
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 35px;
+    background-image: url(https://c.tenor.com/exuPwTTU-FwAAAAC/key-click-typing.gif);
+    height: 600px;
+    width: 1900px;
+}
+
+.primerTitulo{
+    margin: 0;
+    
+}
+#tirandoRostro{
+ display: inline-block;
+ size: 10px;
+}
+.yoSeccion{
+    
+    color: white;
+    display: inline-block;
+    font-family: 'Gowun Dodum', sans-serif;
+    text-align: center;
+    background-color: black;
+    width: 119em;
+
+}
+
+#skills h2{
+    
+    text-align: center;
+}
+#skillsFront{
+    display: inline-block;
+    text-align: start;
+    
+
+}
+
+#skillsBack{
+    text-align: end;
+}
+
+#projects{
+    color: white;
+    background-color: #000;
+}
+#projects a{
+    color: white;
+}
+#projectsTitulo{
+    text-align: center;
+}
+
+.projectsContenido{
+    text-align: center;
+}
+
+#projectsUno{
+    text-align: end;
+}
+
+.links{
+    
+    height: 48px;
+    width: 48px;
+}
+
+.linksBotones{
+
+    display: inline-block;
+    position
+
+}
