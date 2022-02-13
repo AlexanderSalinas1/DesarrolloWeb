@@ -417,3 +417,47 @@ footer{
 }
 
 /*CONTACTO*/
+
+/*RESPONSIVE*/
+html{
+    height: 100%;
+}
+
+.header{
+    grid-area: header;
+}
+.navbar{
+    grid-area:navbar;
+}
+
+.main{
+    grid-area: main;
+}
+
+.footer{
+    grid-area: footer;
+    height: 100%;
+}
+
+.grid-contenedor{
+    width: 90%;
+    max-width: 1200px;
+    display: grid; 
+    grid-gap: 20px;
+    grid-template-areas: 
+    "header"
+    "navbar"
+    "main"
+    "footer"
+    ;
+}
+@media(min-width: 600px){
+    .grid-contenedor{
+    grid-template-areas:
+    "header"
+    "navbar"
+    "main cartas"
+    "footer";
+    }
+}
+/*RESPONSIVE*/
